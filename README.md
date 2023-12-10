@@ -1,6 +1,6 @@
 # lmask
 
-> Small input mask library for lua based on [v-mask](https://github.com/probil/v-mask).
+> Small library of input masks for lua inspired by [v-mask](https://github.com/probil/v-mask).
 
 ## Dependencies
 
