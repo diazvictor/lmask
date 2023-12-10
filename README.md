@@ -35,4 +35,4 @@ Here is a list placeholders you can utilize by default:
 
 ## License
 
-lmask is available under the MIT license. Details can be found in the [LICENSE](LICENSE.md) file.
+lmask is available under the MIT license. Details can be found in the [LICENSE](LICENSE) file.
