@@ -20,7 +20,7 @@ local phoneNumber = lmask('(####)-##-##-###', '04128692598')
 
 Passport document
 ```lua
-local passport = lmask('A-########-#', 'J234176882')
+local passportDocument = lmask('A-########-#', 'J234176882')
 -- J-23417688-2
 ```
 
