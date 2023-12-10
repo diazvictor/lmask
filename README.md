@@ -6,11 +6,13 @@
 
 - [Lua5.1+](https://www.lua.org/download.html) (or [LuaJIT 2.0+](https://luajit.org/))
 
-## Usage
+## Initialization
 
 ```lua
 local lmask = require("lmask")
 ```
+
+## Usage
 
 Phone number
 ```lua
