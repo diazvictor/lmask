@@ -26,6 +26,13 @@ local passportDocument = lmask('A-########-#', 'J234176882')
 -- J-23417688-2
 ```
 
+Here is a list placeholders you can utilize by default:
+
+| Placeholder | Format                         |
+|-------------|--------------------------------|
+| #           | Number (0-9)                   |
+| A           | Letter in any case (a-z,A-Z)   |
+
 ## License
 
 See the [LICENSE](LICENSE) file for license rights and limitations (MIT).
