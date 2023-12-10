@@ -22,32 +22,34 @@ function lmask(mask, value)
 		old = {},
 		new = {}
 	}
+
 	local numbers = {
 		old = {},
 		new = {}
 	}
+
 	local chars = {}
 
 	for i, v in pairs(str_split(mask)) do
-		if string.match(v, 'A') then
+		if (string.match(v, 'A')) then
 			table.insert(letters.old, v)
 		end
 
-		if string.match(v, '#') then
+		if (string.match(v, '#')) then
 			table.insert(numbers.old, v)
 		end
 
-		if string.match(v, '.*[()%-%/,].*') then
+		if (string.match(v, '.*[()%-%/,].*')) then
 			table.insert(chars, {pos = i, val = v})
 		end
 	end
 
 	for i, v in pairs(str_split(value)) do
-		if string.match(v, '%a') then
+		if (string.match(v, '%a')) then
 			table.insert(letters.new, v)
 		end
 
-		if string.match(v, '%d') then
+		if (string.match(v, '%d')) then
 			table.insert(numbers.new, v)
 		end
 	end
